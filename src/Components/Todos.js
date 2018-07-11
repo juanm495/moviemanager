@@ -14,13 +14,15 @@ class Todos extends Component {
     }
     return (
       <div className="Todos">
+        
         {todoItems}
       </div>
-    );
+    )
   }
 }
 
 Todos.propTypes = {
+ // todos: React.PropTypes.array
 }
 
 export default Todos;
